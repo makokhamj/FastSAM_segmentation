@@ -13,3 +13,7 @@ from roboflow import Roboflow
 from fastsam import FastSAM, FastSAMPrompt 
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor 
 from matplotlib.backends.backend_agg import FigureCanvasAgg
+
+
+WEIGHTS REQUIRED INSIDE THE "WEIGHTS" FOLDER
+Missing weights you need to download elsewhere: FastSAM-s.pt /FastSAM-x.pt /FastSAM.pt and weights/sam_vit_h_4b8939.pth
